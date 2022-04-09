@@ -1,0 +1,61 @@
+.title {
+    padding: 140px 75px 30px 75px;
+    display: flex;
+    align-items: center;
+}
+
+.title .line {
+    width: 4px;
+    height: 80px;
+    background-color: #C3083F;
+    margin-right: 40px;
+}
+
+.title .title-text p {
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 75px;
+}
+
+.row .card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    row-gap: 15px;
+}
+
+.row .card img {
+    width: 320px;
+    height: 480px;
+}
+
+.row .card .card-details {
+    padding-bottom: 8px;
+}
+
+.row .card .card-details h2 {
+    font-size: 2.1rem;
+    padding: 0 0 5px 0;
+}
+
+.row .card .card-details p {
+    font-size: .9rem;
+}
+
+.row .card .add-card a {
+    padding: 10px 35px;
+    color: #ffffff;
+    background: #C3083F;
+}
+
+.row .card .add-card a:hover {
+    background: #fff;
+    color: #C3083F;
+}
