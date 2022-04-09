@@ -1,0 +1,241 @@
+@import url(../fonts/Adoha_Serif_Font/adoha-axgvj.otf);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'adoha', 'serif';
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #1e1e2e;
+}
+
+.navber {
+    width: 100%;
+    height: 100px;
+    padding: 20px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2F303A;
+    z-index: 999;
+    position: fixed;
+}
+
+.navber .logo img {
+    width: 185px;
+    height: 130px;
+}
+
+.navber .menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.navber .menu ul li a {
+    color: #fff;
+    margin: 0 20px;
+    font-size: 1.3rem;
+    transition: all .3s ease-in;
+}
+
+.navber .menu ul li a:hover {
+    color: #C3083F;
+}
+
+.navber .menu ul li .active {
+    color: #C3083F;
+}
+
+.banner {
+    height: 900px;
+    background-image: url(../image/banner.jpg);
+    background-size: cover;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner .banner-text {
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text img {
+    width: 100%;
+    height: 900px;
+}
+
+.btn {
+    background-color: #C3083F;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    border: 2px solid #C3083F;
+}
+
+.btn a {
+    font-size: 1.5rem;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover a {
+    color: #C3083F;
+}
+
+.about-home {
+    display: flex;
+    padding: 120px 75px 40px 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-home .about-home-text {
+    width: 45%;
+    height: 240px;
+}
+
+.about-home .about-home-text h3 {
+    font-size: 2.7rem;
+    line-height: 120px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.about-home .about-home-text h3 span {
+    font-weight: 300;
+    color: #C3083F;
+}
+
+.about-home .about-home-text p {
+    font-size: 1.2rem;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.about-home .about-home-image {
+    width: 45%;
+    height: 400px;
+}
+
+.about-home .about-home-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 75px;
+}
+
+.footer .footer-contact h3 {
+    font-size: 1.7rem;
+    line-height: 55px;
+    color: #ffffff;
+    transition: all .2s ease-in;
+}
+
+.footer .footer-contact p {
+    font-size: 1.2rem;
+    line-height: 25px;
+    color: #ffffff;
+    transition: all .2s ease-in;
+}
+
+.footer .footer-contact h3:hover {
+    color: #C3083F;
+}
+
+.footer .footer-contact p:hover {
+    color: #C3083F;
+}
+
+.footer .footer-faq ul li {
+    font-size: 1.2rem;
+    line-height: 25px;
+    color: #ffffff;
+    transition: all .2s ease-in;
+}
+
+.footer .footer-faq ul li:hover {
+    color: #C3083F;
+}
+
+.footer .footer-msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer .footer-msg textarea {
+    box-sizing: content-box;
+    width: 220px;
+    height: 50px;
+    font-size: 1.2rem;
+    border: 1px solid #C3083F;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.footer .footer-msg textarea:focus {
+    outline: none !important;
+    box-shadow: 1px 1px 10px #410617;
+}
+
+.footer .footer-msg .msg-btn {
+    width: 220px;
+    background-color: #C3083F;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: all .3s ease-in;
+}
+
+.footer .footer-msg .msg-btn:hover {
+    border: 1px solid #C3083F;
+    background-color: #fff;
+}
+
+.footer .footer-msg .msg-btn p {
+    font-size: 1.1rem;
+    color: #fff;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.footer .footer-msg .msg-btn:hover p {
+    color: #C3083F;
+}
+
+.copy {
+    width: 100%;
+    text-align: center;
+}
+
+.copy p {
+    line-height: 40px;
+    color: rgb(138, 138, 138);
+    font-size: 1.2rem;
+}
